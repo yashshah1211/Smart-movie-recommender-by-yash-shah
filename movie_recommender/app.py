@@ -7,7 +7,7 @@ st.write("Working dir:", os.getcwd())
 st.write("Files here:", os.listdir("."))
 
 # ---------- CONFIG ----------
-CSV_PATH = "mymoviedb_updated.csv"  # your CSV file
+CSV_PATH = "movie_recommender/mymoviedb_ipdated.csv"  # your CSV file
 
 TITLE_COL = "Title"           # title column
 GENRE_COL = "Genre"          # genres (comma-separated string)
