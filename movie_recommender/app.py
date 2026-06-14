@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import random
+import os
+
+st.write("Working dir:", os.getcwd())
+st.write("Files here:", os.listdir("."))
 
 # ---------- CONFIG ----------
 CSV_PATH = "mymoviedb_updated.csv"  # your CSV file
